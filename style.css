@@ -51,6 +51,19 @@ a:active{
     flex: 5; /* adjust to width as needed */
     padding: 20px; /* add padding for content */
 }
+.containerSmall{
+    display: flex;
+    max-width: 800px;
+    /*margin: 0 auto;*/
+}
+.photoLeft{
+    flex: 1;
+    margin-left: 10px;
+}
+.textRight{
+    flex: 1;
+    padding: 20px;
+}
 .divider{
     flex: 0.1; /* adjust the width of the divider */
     border-right: 1px solid #280E4A; /* vertical line for the divider */
