@@ -1,0 +1,69 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: "Agbalumo", "calibri", sans-serif;
+    font-size: 35px;
+    margin-left: 30px;
+}
+h2{
+    font-family: "Dosis", "calibri", sans-serif;
+    font-size: 27px;
+    margin-left: 10px;
+}
+h3{
+    font-family: "Dosis", "calibri", sans-serif;
+    font-size: 24px;
+    color: white;
+}
+p{
+    font-family: "Dosis", "calibri", sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+}
+a{
+    font-family: "Dosis", "calibri", sans-serif;
+    font-size: 18px;
+    color: white;
+}
+button{
+    font-family: "Dosis", "calibri", sans-serif;
+    font-size: 14px;
+    background-color: #f4edff;
+    border: 1px solid #280E4A;
+    color: #280E4A;
+    border-radius: 5px;
+}
+button:active{
+    background-color: #b0a6bf;
+}
+a:active{
+    color: grey;
+}
+
+.container{
+    display: flex;
+    
+}
+.left{
+    flex: 5; /* adjust to width as needed */
+    padding: 20px; /* add padding for content */
+}
+.divider{
+    flex: 0.1; /* adjust the width of the divider */
+    border-right: 1px solid #280E4A; /* vertical line for the divider */
+    min-height: 50px
+}
+.right{
+    background-color: #280E4A;
+    flex: 1; /* adjust the width as needed */
+    padding: 20px; /* add padding for links */
+}
+.headingBox{
+    width: 100%;
+    background-color: #D5A5EB;
+    margin-top: 0;
+    padding: 1px;
+}
